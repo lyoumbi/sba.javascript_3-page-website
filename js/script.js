@@ -3,15 +3,13 @@ let navClosedBtn = document.querySelector('.nav_closed');
 let navDiv = document.querySelector('.side_nav');
 
 let navDisplay = () => {
-  navDiv.style.display='inline';
-  menuBtn.innerHTML = '';
+  navDiv.style.display='block';
 };
 
 menuBtn.addEventListener('click', navDisplay);
 
 let navClosed = () => {
   navDiv.style.display='none';
-  menuBtn.innerHTML = `<ion-icon name="menu-sharp"></ion-icon><span>MENU</span>`;
 };
 navClosedBtn.addEventListener('click', navClosed);
 
