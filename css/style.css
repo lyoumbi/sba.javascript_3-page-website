@@ -236,6 +236,10 @@ ion-icon:hover {
 }
 
 @media only screen and (max-width: 960px) { 
+    .side_nav {
+        width: 30vw;
+    }
+
     .menu span {
         font-size: 0.7em;
     }
@@ -255,7 +259,7 @@ ion-icon:hover {
     }
 
     .section2 {
-        height: 50vh;
+        height: 60vh;
     }
 
     .main_section1 img {
@@ -268,7 +272,7 @@ ion-icon:hover {
     }
 
     .side_nav a {
-        font-size: 0.6em;
+        font-size: 0.4em;
     }
 
     .article h3 {
@@ -278,6 +282,7 @@ ion-icon:hover {
     
     .article p {
         font-size: 0.4em;
+        height: 15%;
 
     }
 
@@ -286,7 +291,7 @@ ion-icon:hover {
     }
     
     .main_section3 h2 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     
     .main_section3 ion-icon {
